@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+           <a href="index.html"><img src="images/logo.svg" alt="Travel logo" class="logo"></a>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bookings.html">Bookings</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="./contact.html">Contacts</a></li>
+            </ul>
+        </div>
+        <div class="auth">
+            <ul>
+                <li><a href="./login.html">Sign In</a></li>
+                <li><a href="./signup.html" class="blue-btn">Sign Up</a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="">
+        <div class="img">
+        <img src="images/home.png" alt="Travel" class="home">
+    </div>
+        <div class="form">
+            <h1>Welcome Back</h1>
+            <form action="http://localhost:3000/user/login" method="post">
+                <input type="email" name="email" placeholder="Email or Phone Number">
+                <input type="password" name="password" placeholder="Password">
+                <span><a href="#" class="forgot-password">Forgot your password?</a></span>
+
+                <button>Log in </button>
+               
+                <div class="icons">
+                    <p>Or Sign in using</p>
+                    <a href=""><img src="images/facebook.png" alt=""></a>
+                    <a href=""><img src="images/Google.png" alt=""></a>
+                    <a href=""><img src="images/LinkedIn.png" alt=""></a>
+                </div>
+
+                <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+
+            </form>
+        </div>
+    </main>
+    
+
+    </div>
+</body>
+</html>

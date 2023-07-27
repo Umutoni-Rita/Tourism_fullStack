@@ -1,0 +1,481 @@
+@import '-@fortawesome/fontawesome-free/css/all.css';
+
+* {
+    font-family: cursive;
+    font-weight: 600;
+    margin: 0%;
+}
+
+body {
+    max-width: 100%;
+    background-color: #6fbce3;
+    font-size: 100%;
+}
+
+::-webkit-scrollbar {
+    height: 0%;
+    width: 0%;
+}
+
+#current {
+    text-decoration: underline solid #00c;
+}
+
+.navbar {
+    display: flex;
+    padding: .5%;
+}
+
+#button {
+    background-color: #3c55f3;
+    color: #fff;
+    font-size: 100%;
+    border: none;
+    border-radius: 5%;
+    border-radius: 20px;
+    width: 40%;
+    height: 5vh;
+}
+
+h1 {
+    width: 5%;
+    margin: 1.5% 20% 1% 1%;
+    color: #fff;
+}
+
+.center {
+    width: 60%;
+    margin: 2% 10% 1% 1%;
+}
+
+.right {
+    width: 30%;
+    margin: 2% 1% 1% 1%;
+}
+
+.center a {
+    margin: 5%;
+}
+
+.right a {
+    margin: 10%;
+}
+
+.flex {
+    display: flex;
+    width: 90%;
+}
+
+#effeil,
+#beach,
+#liberte {
+    background-color: #4f3e3e;
+    border-radius: 15px;
+    height: 55vh;
+    width: 30%;
+    margin: 2% 2.5% 4%;
+    position: relative;
+}
+
+#effeil {
+    background-image: url(images/103.jpg ) no-repeat;
+}
+
+#beach img,
+#liberte img,
+#effeil img {
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#effeil h2,
+#effeil button {
+    position: relative;
+    top: 50%;
+}
+
+#image-overlay {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 50px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+}
+
+#two {
+    display: flex;
+    width: 90%;
+}
+
+#two,
+.flex {
+    margin: 0 5%;
+}
+
+.two {
+    height: 15%;
+    width: 23%;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 3%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.two h2 {
+    color: #000;
+}
+
+.two p,
+.otherFont p,
+.otherFont button,
+.otherFont .white {
+    font-family: sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 150%;
+}
+
+.two p,
+.otherFont p {
+    font-size: 87%;
+}
+
+#dialog {
+    width: 48%;
+    margin: 1%;
+}
+
+#dialog h2 {
+    text-align: start;
+}
+
+#imgOne {
+    transform: rotate(-25deg);
+    width: 20%;
+}
+
+#imgTwo {
+    width: 40%;
+    margin: 0 2% 2% 10%;
+}
+
+#imgs {
+    width: 48%;
+    margin: 1%;
+}
+
+.otherFont {
+    display: flex;
+    margin: 0 0 2%;
+}
+
+#statement {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    height: 35vh;
+    float: right;
+    margin: 5% 5% 0 20%;
+    padding: 1% 10% 3%;
+    background-color: #6fcee3ee;
+}
+
+.white {
+    color: #fff;
+    font-size: 200%;
+    font-weight: 100;
+}
+
+#dialog button {
+    width: 25%;
+    background-color: #6fbce3;
+    border: 0;
+    padding: 1%;
+    box-shadow: 1px 2px 2px #777;
+    border-radius: 10px;
+}
+
+i {
+    color: #000;
+    font-size: 400%;
+}
+
+#explore {
+    background: none;
+    color: #fff;
+    width: 40%;
+    padding: 1% 5%;
+    margin: 0% 30% 10%;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+#quote {
+    color: #0a0;
+    font-size: 150%;
+}
+
+#ue {
+    display: flex;
+}
+
+#ue img,
+#imgOne,
+#imgTwo {
+    border-radius: 10px;
+    border: 5px solid #0a0;
+}
+
+#ue span {
+    width: 15%;
+}
+
+#ue span img {
+    width: 95%;
+    height: 30%;
+    margin: 20% 1%;
+}
+
+#angularTwo {
+    width: 20%;
+    height: 45%;
+    margin: 5% 2%;
+    transform: rotate(-15deg);
+    position: absolute;
+    left: 15%;
+}
+
+#angularOne {
+    transform: rotate(-30deg);
+}
+
+
+
+#booking {
+    background: url(images/104.jpg ) no-repeat;
+    background-size: contain;
+}
+
+.content {
+    display: flex;
+}
+
+.booking {
+    background-color: #6fbce3;
+    border-radius: 30px;
+    height: 65vh;
+    width: 45%;
+    padding: .5%;
+    margin: 1% 3% 7%;
+}
+
+.booking h2 {
+    color: #fff;
+}
+
+.booking input,
+.booking label {
+    margin: 2% 4%;
+}
+
+.booking input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid #fff;
+    background-color: #6fbce3;
+}
+
+.text {
+    width: 50%;
+    display: block;
+}
+
+.bookingJnr {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.bookingJnr input {
+    width: 80%;
+}
+
+.bookingJnr input,
+.bookingJnr label {
+    margin: 4% 8%;
+}
+
+.content h1 {
+    text-align: center;
+    width: 10%;
+    margin: 5% auto;
+}
+
+.content input,
+.content label {
+    color: #000;
+    font-size: 90%;
+}
+
+.booking button {
+    background-color: #3c55f3;
+    color: #fff;
+    width: 25%;
+    border: 0;
+    border-radius: 8px;
+    padding: 1% 2%;
+    margin: 1% 37.5%;
+}
+
+
+
+#bookingTwo {
+    background-color: #6fbce3;
+    color: #fff;
+    padding: 2%;
+    margin: 0%;
+    max-width: 100%;
+}
+
+#bookingTwo h2,
+#bookingTwo p {
+    padding: 0 2%;
+    margin: 0;
+    text-align: start;
+}
+
+.bookingTwo {
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    margin: 0 auto 5%;
+}
+
+.bookingTwo>div {
+    background-color: #fff;
+    width: 25%;
+    height: 100%;
+    margin: 1% 4%;
+    border-radius: 10px;
+}
+
+.bookingTwo p {
+    color: #000;
+    font-size: 80%;
+}
+
+.bookingTwo p,
+.bookingTwo button {
+    font-family: sans-serif;
+}
+
+#delhi {
+    background: url(images/106.jpg ) no-repeat;
+}
+
+#usa {
+    background: url(images/108.jpg ) no-repeat;
+}
+
+#france {
+    background: url(images/107.jpg ) no-repeat;
+}
+
+#delhi,
+#usa,
+#france {
+    width: 100%;
+    height: 75%;
+    border-radius: 10px;
+}
+
+#bonus {
+    background: url(images/105.jpg ) no-repeat;
+    width: 75%;
+    height: 15vh;
+    border-radius: 20px;
+    margin: 1% auto;
+    padding: 5%;
+}
+
+.price {
+    background-color: #1b1a1a57;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 2% 7%;
+    margin: 1%;
+}
+
+.details {
+    color: #6fbce3;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #6fbce3;
+    padding: 1% 3%;
+    margin: 2%;
+}
+
+.price,
+.details {
+    float: right;
+}
+
+
+
+footer {
+    background-color: #73BCF4;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer-comp h4 {
+    color: white;
+    margin: 15px 5px 10px;
+}
+
+footer p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 7px;
+}
+
+.footer-comp ul li {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style-type: none;
+    margin: 7px;
+}
+
+#headerLogo {
+    height: 60%;
+}
+
+#footerLogo {
+    height: 40%;
+}
+
+.logos {
+    display: flex;
+}
+
+.logos li img {
+    width: 30px;
+    margin: 10px;
+}

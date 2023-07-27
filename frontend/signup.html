@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel | SignUp</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+           <a href="index.html"><img src="images/logo.svg" alt="Travel logo" class="logo"></a>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bookings.html">Bookings</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="./contact.html">Contacts</a></li>
+            </ul>
+        </div>
+        <div class="auth">
+            <ul>
+                <li><a href="./login.html">Sign In</a></li>
+                <li><a href="./signup.html" class="blue-btn">Sign Up</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="img">
+            <img src="images/signupimg.png" alt="Travel">
+            <img src="images/signupimg1.png" alt="Travel">
+        </div>
+        <div class="form">
+            <h1>Hello, <br>Welcome.</h1>
+            <form action="http://localhost:3000/user/signup" method="post">
+                <input type="text" name="name" placeholder="Name">
+                <input type="email" name="email" placeholder="Email address" >
+                <input type="file" name="profile" placeholder="Add your profile pic">
+                <input type="password" name="password" placeholder="Password">
+                <div class="agree"><input type="checkbox" name="agree"> I agree to the terms and conditions</div>
+                <input type="submit" name="signup" value="CREATE ACCOUNT">
+                <p>Already have an account? <a href="./login.html">Sign In</a></p>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.svg" alt="Travel logo" class="logo"></a>
+            <p>Book your trip in a minute, get full <br>
+                control for much longer</p>
+         </div>
+         <div class="footer-comp">
+            <h4>Company</h4>
+            <ul>
+                <li>About</li>
+                <li>Careers</li>
+                <li>Mobile</li>
+            </ul>
+         </div>
+         <div class="footer-comp">
+            <h4>Contact</h4>
+            <ul>
+                <li>Help/Faq</li>
+                <li>Press</li>
+                <li>Affiliates</li>
+            </ul>
+         </div>
+         <div class="footer-comp">
+            <h4>More</h4>
+            <ul>
+                <li>Airlinefees</li>
+                <li>Airline</li>
+                <li>Loa fare tips</li>
+            </ul>
+         </div>
+         <div class="footer-comp">
+            <h4>Discover our app</h4>
+            <ul class="logos">
+                <li><img src="images/logos_facebook.png" alt="fb"></li>
+                <li><img src="images/logos_instagram.png" alt="ig"></li>
+                <li><img src="images/logos_twitter.png" alt="tt"></li>
+            </ul>
+         </div>
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body id="booking">
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.svg" alt="Travel logo" class="logo" id="headerLogo"></a>
+        </div>
+        <div class="center">
+            <a href="index.html">Home</a>
+            <a href="bookings.html">Bookings</a>
+            <a href="aboutUs.html">About Us</a>
+            <a href="contact.html">Contacts</a>
+        </div>
+        <div class="right">
+            <a href="./login.html">Sign In</a>
+            <a href="signup.html">Sign Up</a>
+        </div>
+    </div>
+    <div class="content">
+        <form method="post" action="" class="booking">
+            <h2>Book cheap flights</h2>
+            <input type="radio" name="roundway">Round way
+            <input type="radio" name="oneway">One way
+            <br>
+            <label for="departure">Your departure</label>
+            <input type="text" name="departure" class="text">
+            <label for="destination">Your destination</label>
+            <input type="text" name="destination" class="text">
+            <span class="bookingJnr">
+                <span>
+                    <label for="departureDate">Departure date</label><br>
+                    <input type="text" name="departureDate">
+                </span>
+                <span>
+                    <label for="returnDate">Return date</label><br>
+                    <input type="text" name="returnDate" class="inlineElt">
+                </span>
+                <span>
+                    <label for="contact">Contact number</label><br>
+                    <input type="text" name="contact">
+                </span>
+                <span>
+                    <label for="email">Email address</label><br>
+                    <input type="email" name="email" class="inlineElt">
+                </span>
+            </span>
+            <button type="submit">search flights</button>
+        </form>
+        <h1>EXPLORE THE WORLD!</h1>
+    </div>
+    <div id="bookingTwo">
+        <p>Get the best deals & save more!</p>
+        <h2>Choose your amazing places</h2>
+        <div class="bookingTwo">
+            <div>
+                <div id="delhi">
+                    <button class="price">from $12345</button>
+                </div>
+                <p>Rwanda to Delhi</p>
+                <button class="details">View details</button>
+            </div>
+            <div>
+                <div id="usa">
+                    <button class="price">from $1500</button>
+                </div>
+                <p>Rwanda to USA</p>
+                <button class="details">View details</button>
+            </div>
+            <div>
+                <div id="france">
+                    <button class="price">from $2000</button>
+                </div>
+                <p>Rwanda to France</p>
+                <button class="details">View details</button>
+            </div>
+        </div>
+        <div id="bonus">
+            <p>Offering best deals</p>
+            <h2>Flight 30% off</h2>
+            <p>On flight booking</p>
+        </div>
+    </div>
+    <footer>
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.svg" alt="Travel logo" class="logo" id="footerLogo"></a>
+            <p>Book your trip in a minute, get full <br>
+                control for much longer</p>
+         </div>
+         <div class="footer-comp">
+            <h4>Company</h4>
+            <ul>
+                <li>About</li>
+                <li>Careers</li>
+                <li>Mobile</li>
+            </ul>
+         </div>
+         <div class="footer-comp">
+            <h4>Contact</h4>
+            <ul>
+                <li>Help/Faq</li>
+                <li>Press</li>
+                <li>Affiliates</li>
+            </ul>
+         </div>
+         <div class="footer-comp">
+            <h4>More</h4>
+            <ul>
+                <li>Airlinefees</li>
+                <li>Airline</li>
+                <li>Loa fare tips</li>
+            </ul>
+         </div>
+         <div class="footer-comp">
+            <h4>Discover our app</h4>
+            <ul class="logos">
+                <li><img src="images/logos_facebook.png" alt="fb"></li>
+                <li><img src="images/logos_instagram.png" alt="ig"></li>
+                <li><img src="images/logos_twitter.png" alt="tt"></li>
+            </ul>
+         </div>
+    </footer>
+</body>
+</html>
