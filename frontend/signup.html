@@ -39,7 +39,7 @@
                 <input type="file" name="profile" placeholder="Add your profile pic">
                 <input type="password" name="password" placeholder="Password">
                 <div class="agree"><input type="checkbox" name="agree"> I agree to the terms and conditions</div>
-                <input type="submit" name="signup" value="CREATE ACCOUNT">
+                <input type="submit" name="signup" value="CREATE ACCOUNT" onclick="signupSuccessful()">
                 <p>Already have an account? <a href="./login.html">Sign In</a></p>
             </form>
         </div>
@@ -84,5 +84,10 @@
          </div>
 
     </footer>
+    <script>
+        function signupSuccessful(){
+            alert("Signup was succesful")
+        }
+    </script>
 </body>
 </html>
